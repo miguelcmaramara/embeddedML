@@ -1,5 +1,7 @@
 from django.shortcuts import render
+from django.http import HttpResponse
+
 
 # Create your views here.
 def test_tensorflow(request):
-    return "<h1>Hello World<\h1>"
+    return HttpResponse('Hello, World!')

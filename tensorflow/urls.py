@@ -1,6 +1,6 @@
 from django.urls import path
 from .views import (
-    test_tensowflow
+    test_tensorflow
 )
 
 app_name = 'tensorflow'
